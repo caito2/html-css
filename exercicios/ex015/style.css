@@ -1,0 +1,27 @@
+
+        body{
+            background-color: cornflowerblue;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 20px;
+        
+        }
+            h1{
+                color: tomato;
+                background-color: aquamarine;
+            }
+            h2{
+                
+                 color: brown;
+            }
+            p{
+                text-align: justify;
+            }
+            button{
+                background-color: blueviolet;
+                size: 100px;
+                width: 500px;
+                font-size: larger;
+                
+                
+
+            }

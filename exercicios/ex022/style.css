@@ -1,0 +1,95 @@
+@font-face {
+    font-family:'Android';
+    src: url(desafio/fontes/idroid.otf) format('truetype');
+    
+}
+header{
+    background-image:linear-gradient(to bottom, #3cd883, #1a5c38 );
+    background-attachment: fixed
+}
+nav > a{
+    font-size: smaller;
+    text-decoration: none;
+    color: white;
+}
+body{
+    font-family:'Android';
+    font-style: bold;
+    background-color: #84e1ad;
+    height: 100%;
+    text-align: justify;
+}
+main{
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    border-radius: 10;
+}
+h1{
+    background-color: white;
+    margin: auto;
+    color: #22623f;
+}
+.cor{
+    color: #22623f;
+    background-image: linear-gradient(to right,#c8ecd8, white);
+}
+p{
+    font-family: sans-serif;
+}
+.cabeçalho{
+    text-align: center;
+}
+
+p > a{
+    text-decoration: solid;
+    color: #236942;
+}
+#imagem{
+    margin-left: 250px;
+}
+#video{
+    background-color: #1a5c38;
+    text-align: center;
+}
+
+footer{
+    width: 800px;
+    margin: auto;
+    background-color: white;
+    text-align: justify;
+}
+
+h3{
+    background-color: #2fa866;
+    color: white;
+    margin: auto;
+    margin-top: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: medium;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+#final{
+    color: black;
+    margin: auto;
+    height: 100%;
+    background-color: #ffff ;
+    padding: 10px;
+}
+
+#realf{
+    background-color: #c5ebd6;
+    border-radius: 10px;
+}
+#lista{
+    text-decoration: underline;
+}
+#consideração{
+    font-family: sans-serif;
+    background-color: #1a5c38;
+    text-align: center;
+    width: auto;
+}

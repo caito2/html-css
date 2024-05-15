@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em Html5</title>
+</head>
+<body>
+    <h1>Imagem dinamica
+    </h1>
+    <p>Tente abrir esse site em varios dispositivos diferentess ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p-real.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-p.png" alt="imagem flexivel">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reporduzir audio</p>
+    <audio src="midia/funk_carioca.mp3"controls autoplay></audio>
+    <audio preload="metadata" controls   >
+        <source src="midia/funk_carioca.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>

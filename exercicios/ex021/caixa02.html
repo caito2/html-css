@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupos em tag</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header{
+            
+            background-color: rgb(190, 190, 190);
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(105, 105, 105);
+           
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: yellow;
+        }
+        main{
+            background-color: rgb(190, 190, 190);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 0px 40px 40px 40px;
+            box-shadow: 5px 3px 1px rgba(0, 0, 0, 0.178);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 3px;
+            margin: 0px;
+        }
+        footer:hover{
+            text-decoration: underline;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+            padding-left: -4;
+            background-color: rgb(116, 26, 26);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="https://www.youtube.com.br">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem amet ex quidem quam quo nobis, quae dolorum distinctio perspiciatis ea facere, dicta assumenda vitae pariatur? Cupiditate a sed eum aspernatur!</p>
+                        <aside>
+                            <p>Artigo escrito por joãzinho</p>
+                        </aside>
+            </article>
+
+            <article>
+                <h2>Politica no Brasil</h2>
+                <section>
+                    <h3>Pt</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus architecto rem et modi vero illum cum voluptatum magni? Beatae optio fuga veritatis soluta maiores autem est molestiae consequuntur tempore numquam!</p>
+                    <h3>PSDB</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eligendi animi incidunt itaque atque blanditiis dignissimos. Culpa itaque atque illo? Nulla voluptas quisquam suscipit temporibus animi veniam et ut illo.</p>
+                </section>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Criado por Caio Cardoso Terra</p>
+    </footer>
+    <div id="bola">
+       <img src="redonda.png" alt="Bandeira do brasil redonda">
+    </div>
+</body>
+</html>
