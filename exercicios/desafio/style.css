@@ -4,8 +4,8 @@
     
 }
 header{
-    background-image:linear-gradient(to bottom, #3cd883, #1a5c38 );
-    background-attachment: fixed
+    background-image:linear-gradient(to bottom, #4fff9e, #1a5c38 );
+   
 }
 nav > a{
     font-size: smaller;
@@ -26,9 +26,9 @@ main{
     border-radius: 10;
 }
 h1{
-    background-color: white;
+    
     margin: auto;
-    color: #22623f;
+    color: white;
 }
 .cor{
     color: #22623f;
