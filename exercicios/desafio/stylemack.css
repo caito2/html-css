@@ -142,7 +142,7 @@ main a:hover{
 .vd{
     background-color: var(--cor5);
     margin-bottom: 30px;
-    margin: 0px --20px;
+    margin: 0px -20px;
     padding: 20px;
     padding-bottom: 57%;
     position: relative;
