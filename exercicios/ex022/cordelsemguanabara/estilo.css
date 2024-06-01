@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Tangerine:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+--fonte1: 'Passion One', 'cursive';
+--fonte2: 'Sriracha', 'cursive';
+--fonte3: Verdana;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+header{
+    
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1{
+    font-size: 10vw;
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte1);
+
+}
+header > p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5px;
+    padding-bottom: 50px;
+}
+
+section{
+    font-family: var(--fonte2);
+    font-size: 3.5vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left:  30px;
+}
+.imagem{ 
+    height: 96vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#img1{
+    background-image: url(imagens/background001.jpg);
+    color: white;
+    background-position: top right;
+}
+.texto{
+    background-color: rgba(0, 0, 0, 0.493);
+    width: 96vh;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-shadow: 3px 3px 1px #00000059;
+}
+
+#img2{
+    background-image: url(imagens/background002.jpg);
+    color: white;
+
+    
+}
+footer{
+    font-family: var(--fonte3);
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    
+    
+}
+
+.ext{
+    text-decoration: none;
+    font-weight: bolder;
+   
+}
+
+.ext:visited{
+    color: white;
+}
+
+.ext:hover{
+    text-decoration: underline;
+}
