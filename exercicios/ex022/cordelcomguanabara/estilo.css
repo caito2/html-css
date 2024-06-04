@@ -58,6 +58,10 @@ section{
     font-size: 3.5vw
 }
 
+section > p{
+    padding-bottom: 2em;
+}
+
 section.normal{
     background-color: white;
     color: black;
@@ -66,16 +70,28 @@ section.normal{
 section.imagem{
     background-color: rgb(49, 44, 44);
     color: white;
-
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.507);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p{
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.253);
+    background-color: rgba(0, 0, 0, 0.493);
     padding: 10px;
+    text-shadow: 1px 1px 0px black;
     
 }
 
+#img01{
+    background-image: url(../cordelsemguanabara/imagens/background001.jpg);
+    background-position:top right;
+}
+
+
+#img02{
+    background-image: url(../cordelsemguanabara/imagens/background002.jpg);
+}
 footer{
     background-color: black;
     text-align: center;
