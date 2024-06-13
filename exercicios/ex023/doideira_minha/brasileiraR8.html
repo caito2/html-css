@@ -26,12 +26,18 @@
             border-collapse: collapse;
             margin: auto;
             background-color: white;
+            position: relative;
         }
         thead{
             font-weight: bolder;
             background-color: rgb(211, 211, 211);
         }
         
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+            background-color: rgb(211, 211, 211) ;
+        }
        
         td{
             border: 1px solid black;
@@ -57,6 +63,7 @@
         }
         tfoot{
             font-size: 7.5px;
+            padding: 30px;
         }
       #campeao{
         width: 20px;
