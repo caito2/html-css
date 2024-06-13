@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodada 8 do Brasileirao</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(66, 58, 58);
+          
+        }
+        h1{
+            margin: auto;
+            text-align: center;
+            padding-bottom: 3px;
+            padding-top: 6px;
+            border: 1px solid black;
+            border-bottom: 0px solid white;
+            width: 498px;
+            background-color: rgb(211, 211, 211);
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            margin: auto;
+            background-color: white;
+        }
+        thead{
+            font-weight: bolder;
+            background-color: rgb(211, 211, 211);
+        }
+        
+       
+        td{
+            border: 1px solid black;
+            padding: 5px;
+        }
+        .num{
+            text-align: right;
+        }
+        #camp{
+            background-color: rgba(238, 236, 144, 0.5);
+        }
+        .lib{
+            background-color: rgba(144, 238, 144, 0.5);
+        }
+        .pre{
+            background-color: rgba(0, 255, 255, 0.315);
+        }
+        .sula{
+            background-color: rgba(0, 0, 255, 0.281) ;
+        }
+        .reb{
+            background-color: rgba(255, 0, 0, 0.212);
+        }
+        tfoot{
+            font-size: 7.5px;
+        }
+      #campeao{
+        width: 20px;
+        height: 18px;
+        background-color: rgba(238, 236, 144, 0.5);
+        border: 1px solid black;
+        padding: 10px;
+      }
+    </style>
+</head>
+<body>
+    <h1>Classificação do Brasileirao</h1>
+    
+    <table>
+        <thead>
+            <tr>
+                <td> Time</td>
+                <td>Pontos</td>
+                <td>Jogos</td>
+                <td>Vitorias</td>
+                <td>+/-</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td id="camp">Botafogo</td>
+                <td class="num">16</td>
+                <td class="num">8</td>
+                <td class="num">5</td>
+                <td class="num">7</td>
+            </tr>
+
+            <tr>
+                <td class="lib">Flamengo</td>
+                <td class="num">14</td>
+                <td class="num">7</td>
+                <td class="num">4</td>
+                <td class="num">7</td>
+            </tr>
+            <tr>
+                <td class="lib">Bahia</td>
+               <td class="num">14</td> <td class="num">7</td>
+                <td class="num">4</td>
+                <td class="num">3</td>
+                
+            </tr>
+            <tr>
+                <td  class="lib">Sao Paulo</td>
+                <td class="num">13</td>
+                <td class="num">7</td>
+                <td class="num">4</td>
+                <td class="num">3</td>
+            </tr>
+            <tr>
+                <td class="pre">Athletico-PR</td>
+                <td class="num">13</td>
+                <td class="num">7</td>
+                <td class="num">4</td>
+                <td class="num">5</td>
+            </tr>
+            <tr>
+                <td class="pre">Atlético-MG</td>
+                <td class="num">13</td>
+                <td class="num">7</td>
+                <td class="num">3</td>
+                <td class="num">7</td>
+            </tr>
+            <tr>
+                <td class="pre">RB Bragantino</td>
+                <td class="num">12</td>
+                <td class="num">8</td>
+                <td class="num">3</td>
+                <td class="num">7</td>
+            </tr>
+            <tr>
+                <td class="sula">Palmeiras</td>
+                <td class="num">11</td>
+                <td class="num">7</td>
+                <td class="num">3</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td class="sula">Internacional</td>
+                <td class="num">11</td>
+                <td class="num">7</td>
+                <td class="num">3</td>
+                <td class="num">1</td>
+            </tr>
+            <tr>
+                <td class="sula">Cruzeiro</td>
+                <td class="num">10</td>
+                <td class="num">6</td>
+                <td class="num">3</td>
+                <td class="num">-1</td>
+            </tr>
+            <tr>
+                <td class="sula">Fortaleza</td>
+                <td class="num">10</td>
+                <td class="num">6</td>
+                <td class="num">2</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td class="sula">Juventude</td>
+                <td class="num">10</td>
+                <td class="num">7</td>
+                <td class="num">2</td>
+                <td class="num">-1</td>
+            </tr>
+            <tr>
+                <td>Grêmio</td>
+                <td class="num">6</td>
+                <td class="num">5</td>
+                <td class="num">2</td>
+                <td class="num">-1</td>
+            </tr>
+            <tr>
+                <td>Vasco</td>
+                <td class="num">6</td>
+                <td class="num">7</td>
+                <td class="num">2</td>
+                <td class="num">-10</td>
+            </tr>
+            <tr>
+                <td>Corinthians</td>
+                <td class="num">6</td>
+                <td class="num">8</td>
+                <td class="num">1</td>
+                <td class="num">-3</td>
+            </tr>
+            <tr>
+                <td>Fluminense</td>
+                <td class="num">6</td>
+                <td class="num">8</td>
+                <td class="num">1</td>
+                <td class="num">-5</td>
+            </tr>
+            <tr>
+                <td class="reb">Criciuma</td>
+                <td class="num">5</td>
+                <td class="num">5</td>
+                <td class="num">1</td>
+                <td class="num">0</td>
+            </tr>
+            <tr>
+                <td class="reb">Atlético-GO</td>
+                <td class="num">5</td>
+                <td class="num">8</td>
+                <td class="num">1</td>
+                <td class="num">-5</td>
+            </tr>
+            <tr>
+                <td class="reb">Cuiabá</td>
+                <td class="num">4</td>
+                <td class="num">7</td>
+                <td class="num">1</td>
+                <td class="num">-8</td>
+            </tr>
+            <tr>
+                <td class="reb">Vitória</td>
+                <td class="num">3</td>
+                <td class="num">8</td>
+                <td class="num">0</td>
+                <td class="num">-8</td>
+            </tr>
+             
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>
+                    <div id="campeao">
+                        <h2>Campeão</h2>
+                    </div >
+                </th>
+            </tr>
+        </tfoot>
+        
+    </table>
+</body>
+</html>
