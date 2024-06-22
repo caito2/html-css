@@ -10,7 +10,7 @@
         }
         table{
             width: 500px;
-            
+            border-collapse: collapse;
         }
         thead{
             color: white;
@@ -20,6 +20,7 @@
         }
         td{
             border: 1px solid black;
+
         }
         .catg{
             font-weight: bolder;
@@ -30,14 +31,14 @@
     <table>
         <thead>
             <tr>
-                <td rowspan="2">Área</td>
-                <td rowspan="2">Disciplinas</td>
-                <td colspan="2">Notas</td>
-                <td rowspan="2">Média</td>
+                <th scope="col" rowspan="2">Área</th>
+                <th scope="col" rowspan="2">Disciplinas</th>
+                <th scope="col" colspan="2">Notas</th>
+                <th scope="col" rowspan="2">Média</th>
             </tr>
             <tr>
-                <td>Nota 1</td>
-                <td>Nota 2</td>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
             </tr>
         </thead>
         <tr>
@@ -69,7 +70,7 @@
 
         <thead>
             <tr>
-                <td colspan="4">Média de Exatas</td>
+                <th scope="row" colspan="4">Média de Exatas</th>
                 <td>0.0</td>
             </tr>
         </thead>
@@ -88,7 +89,7 @@
         </tr>
         <thead>
             <tr>
-                <td colspan="4">Média de Humanas</td>
+                <th scope="row" colspan="4">Média de Humanas</th>
                 <td>0.0</td>
             </tr>
         </thead>
